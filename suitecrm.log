@@ -1,0 +1,29 @@
+Mon Aug 19 08:18:46 2024 [15760][1][SECURITY] OutboundEmail::checkSavePermissions - not logged in - skipping check
+Mon Aug 19 08:18:46 2024 [15760][1][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
+Mon Aug 19 08:18:46 2024 [15760][1][FATAL] Email address save error
+Mon Aug 19 08:18:53 2024 [15760][1][SECURITY] Invalid ext  logger_file_ext : ''.
+Mon Aug 19 08:18:53 2024 [15760][1][SECURITY] Setting logger_file_ext to '.log'.
+Mon Aug 19 08:18:53 2024 [15760][1][SECURITY] Setting logger_file_name to ''.
+Mon Aug 19 08:18:53 2024 [15760][1][SECURITY] Log file extension can't be blank.
+Mon Aug 19 08:18:53 2024 [15760][1][SECURITY] Setting logger_file_name to ''.
+Mon Aug 19 08:18:53 2024 [15760][1][SECURITY] Log file extension can't be blank.
+Tue Aug 20 03:11:32 2024 [16164][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 03:11:32 2024 [16164][1][FATAL] Exception in Controller: DeployedMetaDataImplementation: view definitions for View editview and Module Leads are missing
+Tue Aug 20 03:11:51 2024 [16164][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 03:11:51 2024 [16164][1][FATAL] Exception in Controller: DeployedMetaDataImplementation: view definitions for View editview and Module Leads are missing
+Tue Aug 20 09:14:50 2024 [14428][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 09:14:50 2024 [14428][1][FATAL] Exception in Controller: DeployedMetaDataImplementation: view definitions for View editview and Module Leads are missing
+Tue Aug 20 09:14:54 2024 [14428][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 09:14:54 2024 [14428][1][FATAL] Exception in Controller: DeployedMetaDataImplementation: view definitions for View editview and Module Leads are missing
+Tue Aug 20 09:18:17 2024 [14428][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 09:18:17 2024 [14428][1][FATAL] Exception in Controller: DeployedMetaDataImplementation: view definitions for View editview and Module Leads are missing
+Tue Aug 20 09:18:22 2024 [14428][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 09:18:22 2024 [14428][1][FATAL] Exception in Controller: DeployedMetaDataImplementation: view definitions for View editview and Module Leads are missing
+Tue Aug 20 09:18:31 2024 [14428][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 09:18:31 2024 [14428][1][FATAL] Exception in Controller: DeployedMetaDataImplementation: view definitions for View editview and Module Leads are missing
+Tue Aug 20 09:26:00 2024 [15852][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 09:26:00 2024 [15852][1][FATAL] Exception in Controller: DeployedMetaDataImplementation: view definitions for View editview and Module Leads are missing
+Tue Aug 20 09:26:03 2024 [15852][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 09:26:03 2024 [15852][1][FATAL] Exception in Controller: DeployedMetaDataImplementation: view definitions for View editview and Module Leads are missing
+Tue Aug 20 09:40:00 2024 [15852][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 09:40:00 2024 [15852][1][FATAL] Exception in Controller: Error: Field Already Exists
