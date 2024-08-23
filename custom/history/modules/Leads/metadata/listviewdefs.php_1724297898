@@ -1,0 +1,278 @@
+<?php
+$listViewDefs ['Leads'] = 
+array (
+  'FULL_NAME' => 
+  array (
+    'type' => 'fullname',
+    'studio' => 
+    array (
+      'listview' => false,
+    ),
+    'label' => 'LBL_NAME',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'EMAIL1' => 
+  array (
+    'width' => '16%',
+    'label' => 'LBL_LIST_EMAIL_ADDRESS',
+    'sortable' => false,
+    'customCode' => '{$EMAIL1_LINK}',
+    'default' => true,
+  ),
+  'PHONE_NUMBER_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_PHONE_NUMBER',
+    'width' => '10%',
+  ),
+  'COMPANY_NAME_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_COMPANY_NAME',
+    'width' => '10%',
+  ),
+  'UTM_MEDIUM_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_UTM_MEDIUM',
+    'width' => '10%',
+  ),
+  'UTM_CONTENT_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_UTM_CONTENT',
+    'width' => '10%',
+  ),
+  'UTM_TERM_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_UTM_TERM',
+    'width' => '10%',
+  ),
+  'UTM_SCORE_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_UTM_SCORE',
+    'width' => '10%',
+  ),
+  'VAT_NUMBER_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_VAT_NUMBER',
+    'width' => '10%',
+  ),
+  'FULL_NAME_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => false,
+    'label' => 'LBL_FULL_NAME',
+    'width' => '10%',
+  ),
+  'FIRST_NAME' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_FIRST_NAME',
+    'width' => '10%',
+    'default' => false,
+  ),
+  'LAST_NAME' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_LAST_NAME',
+    'width' => '10%',
+    'default' => false,
+  ),
+  'TITLE' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_TITLE',
+    'default' => false,
+  ),
+  'NAME' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_LIST_NAME',
+    'link' => true,
+    'orderBy' => 'name',
+    'default' => false,
+    'related_fields' => 
+    array (
+      0 => 'first_name',
+      1 => 'last_name',
+      2 => 'salutation',
+    ),
+  ),
+  'REFERED_BY' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_REFERED_BY',
+    'default' => false,
+  ),
+  'PHONE_WORK' => 
+  array (
+    'width' => '15%',
+    'label' => 'LBL_LIST_PHONE',
+    'default' => false,
+  ),
+  'STATUS' => 
+  array (
+    'width' => '7%',
+    'label' => 'LBL_LIST_STATUS',
+    'default' => false,
+  ),
+  'UTM_CAMPAIGN_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => false,
+    'label' => 'LBL_UTM_CAMPAIGN',
+    'width' => '10%',
+  ),
+  'ACCOUNT_NAME' => 
+  array (
+    'width' => '15%',
+    'label' => 'LBL_LIST_ACCOUNT_NAME',
+    'default' => false,
+    'related_fields' => 
+    array (
+      0 => 'account_id',
+    ),
+  ),
+  'LEAD_SOURCE' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_LEAD_SOURCE',
+    'default' => false,
+  ),
+  'DEPARTMENT' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_DEPARTMENT',
+    'default' => false,
+  ),
+  'DO_NOT_CALL' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_DO_NOT_CALL',
+    'default' => false,
+  ),
+  'ASSIGNED_USER_NAME' => 
+  array (
+    'width' => '5%',
+    'label' => 'LBL_LIST_ASSIGNED_USER',
+    'module' => 'Employees',
+    'id' => 'ASSIGNED_USER_ID',
+    'default' => false,
+  ),
+  'PHONE_HOME' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_HOME_PHONE',
+    'default' => false,
+  ),
+  'DATE_ENTERED' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_DATE_ENTERED',
+    'default' => false,
+  ),
+  'PHONE_MOBILE' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_MOBILE_PHONE',
+    'default' => false,
+  ),
+  'PHONE_OTHER' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_OTHER_PHONE',
+    'default' => false,
+  ),
+  'PHONE_FAX' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_FAX_PHONE',
+    'default' => false,
+  ),
+  'PRIMARY_ADDRESS_COUNTRY' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_PRIMARY_ADDRESS_COUNTRY',
+    'default' => false,
+  ),
+  'PRIMARY_ADDRESS_STREET' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_PRIMARY_ADDRESS_STREET',
+    'default' => false,
+  ),
+  'PRIMARY_ADDRESS_CITY' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_PRIMARY_ADDRESS_CITY',
+    'default' => false,
+  ),
+  'PRIMARY_ADDRESS_STATE' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_PRIMARY_ADDRESS_STATE',
+    'default' => false,
+  ),
+  'PRIMARY_ADDRESS_POSTALCODE' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_PRIMARY_ADDRESS_POSTALCODE',
+    'default' => false,
+  ),
+  'ALT_ADDRESS_COUNTRY' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_ALT_ADDRESS_COUNTRY',
+    'default' => false,
+  ),
+  'ALT_ADDRESS_STREET' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_ALT_ADDRESS_STREET',
+    'default' => false,
+  ),
+  'ALT_ADDRESS_CITY' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_ALT_ADDRESS_CITY',
+    'default' => false,
+  ),
+  'ALT_ADDRESS_STATE' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_ALT_ADDRESS_STATE',
+    'default' => false,
+  ),
+  'ALT_ADDRESS_POSTALCODE' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_ALT_ADDRESS_POSTALCODE',
+    'default' => false,
+  ),
+  'CREATED_BY' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_CREATED',
+    'default' => false,
+  ),
+  'MODIFIED_BY_NAME' => 
+  array (
+    'width' => '5%',
+    'label' => 'LBL_MODIFIED',
+    'default' => false,
+  ),
+);
+;
+?>

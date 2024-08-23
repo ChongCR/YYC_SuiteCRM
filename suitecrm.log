@@ -27,3 +27,163 @@ Tue Aug 20 09:26:03 2024 [15852][1][FATAL] Exception handling in C:\laragon\www\
 Tue Aug 20 09:26:03 2024 [15852][1][FATAL] Exception in Controller: DeployedMetaDataImplementation: view definitions for View editview and Module Leads are missing
 Tue Aug 20 09:40:00 2024 [15852][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
 Tue Aug 20 09:40:00 2024 [15852][1][FATAL] Exception in Controller: Error: Field Already Exists
+Tue Aug 20 10:32:57 2024 [13964][1][FATAL] Mysqli_query failed.
+Tue Aug 20 10:32:57 2024 [13964][1][FATAL] Retrieving record WHERE email1 = 'chunrock@artisan.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email1 = 'chunrock@artisan.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email1' in 'where clause'
+Tue Aug 20 10:32:57 2024 [13964][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 10:32:57 2024 [13964][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Tue Aug 20 10:33:33 2024 [12728][1][FATAL] Mysqli_query failed.
+Tue Aug 20 10:33:33 2024 [12728][1][FATAL] Retrieving record WHERE email1 = 'chunrock@artisan.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email1 = 'chunrock@artisan.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email1' in 'where clause'
+Tue Aug 20 10:33:33 2024 [12728][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 10:33:33 2024 [12728][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Tue Aug 20 10:33:35 2024 [12728][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 10:33:35 2024 [12728][1][FATAL] Exception in Controller: Unauthorized access to this area.
+Tue Aug 20 10:46:07 2024 [12728][1][FATAL] Mysqli_query failed.
+Tue Aug 20 10:46:07 2024 [12728][1][FATAL] Retrieving record WHERE email1 = 'trick@test.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email1 = 'trick@test.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email1' in 'where clause'
+Tue Aug 20 10:46:07 2024 [12728][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 10:46:07 2024 [12728][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Tue Aug 20 10:47:35 2024 [15852][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 10:47:35 2024 [15852][1][FATAL] Exception in Controller: Unauthorized access to this area.
+Tue Aug 20 10:47:58 2024 [12728][1][FATAL] Mysqli_query failed.
+Tue Aug 20 10:47:58 2024 [12728][1][FATAL] Retrieving record WHERE email1 = 'trick@test.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email1 = 'trick@test.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email1' in 'where clause'
+Tue Aug 20 10:47:58 2024 [12728][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 10:47:58 2024 [12728][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Tue Aug 20 10:48:00 2024 [12728][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 10:48:00 2024 [12728][1][FATAL] Exception in Controller: Unauthorized access to this area.
+Tue Aug 20 10:49:29 2024 [13964][1][FATAL] Mysqli_query failed.
+Tue Aug 20 10:49:29 2024 [13964][1][FATAL] Retrieving record WHERE email1 = 'trick@test.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email1 = 'trick@test.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email1' in 'where clause'
+Tue Aug 20 10:49:29 2024 [13964][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 10:49:29 2024 [13964][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Tue Aug 20 10:50:02 2024 [12728][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Tue Aug 20 10:50:02 2024 [12728][1][FATAL] Exception in Controller: Unauthorized access to this area.
+Tue Aug 20 10:50:20 2024 [12728][1][FATAL] Mysqli_query failed.
+Tue Aug 20 10:50:20 2024 [12728][1][FATAL] Retrieving record WHERE email1 = 'trick@test.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email1 = 'trick@test.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email1' in 'where clause'
+Tue Aug 20 10:50:20 2024 [12728][1][FATAL] Database error: Database failure. Please refer to suitecrm.log for details.
+Tue Aug 20 10:50:47 2024 [13964][1][FATAL] Mysqli_query failed.
+Tue Aug 20 10:50:47 2024 [13964][1][FATAL] Retrieving record WHERE email1 = 'trick123@test.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email1 = 'trick123@test.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email1' in 'where clause'
+Tue Aug 20 10:50:47 2024 [13964][1][FATAL] Database error: Database failure. Please refer to suitecrm.log for details.
+Tue Aug 20 10:52:05 2024 [12728][1][FATAL] Mysqli_query failed.
+Tue Aug 20 10:52:05 2024 [12728][1][FATAL] Retrieving record WHERE email1 = 'trick@test.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email1 = 'trick@test.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email1' in 'where clause'
+Tue Aug 20 10:52:05 2024 [12728][1][FATAL] Database error: Database failure. Please refer to suitecrm.log for details.
+Tue Aug 20 10:52:24 2024 [15852][1][FATAL] Mysqli_query failed.
+Tue Aug 20 10:52:24 2024 [15852][1][FATAL] Retrieving record WHERE email1 = 'trick1235333@test.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email1 = 'trick1235333@test.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email1' in 'where clause'
+Tue Aug 20 10:52:24 2024 [15852][1][FATAL] Database error: Database failure. Please refer to suitecrm.log for details.
+Wed Aug 21 02:18:46 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:18:46 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:18:46 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:18:46 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:18:46 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:18:46 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:18:46 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:18:46 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:37:18 2024 [17036][1][FATAL] Batch: 0 - 3 email addresses
+Wed Aug 21 02:37:18 2024 [17036][1][FATAL] Mysqli_query failed.
+Wed Aug 21 02:37:18 2024 [17036][1][FATAL] Retrieving record WHERE email1 = 'chunrock@artisan.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email1 = 'chunrock@artisan.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email1' in 'where clause'
+Wed Aug 21 02:37:18 2024 [17036][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Wed Aug 21 02:37:18 2024 [17036][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Wed Aug 21 02:39:01 2024 [11088][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Wed Aug 21 02:39:01 2024 [11088][1][FATAL] Exception in Controller: Unauthorized access to this area.
+Wed Aug 21 02:39:18 2024 [18308][1][FATAL] Batch: 0 - 3 email addresses
+Wed Aug 21 02:39:18 2024 [18308][1][FATAL] Mysqli_query failed.
+Wed Aug 21 02:39:18 2024 [18308][1][FATAL] Retrieving record WHERE email = 'chunrock@artisan.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email = 'chunrock@artisan.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email' in 'where clause'
+Wed Aug 21 02:39:18 2024 [18308][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Wed Aug 21 02:39:18 2024 [18308][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Wed Aug 21 02:40:32 2024 [11088][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Wed Aug 21 02:40:32 2024 [11088][1][FATAL] Exception in Controller: Unauthorized access to this area.
+Wed Aug 21 02:40:50 2024 [17036][1][FATAL] Batch: 0 - 3 email addresses
+Wed Aug 21 02:40:50 2024 [17036][1][FATAL] Mysqli_query failed.
+Wed Aug 21 02:40:50 2024 [17036][1][FATAL] Retrieving record WHERE email1 = 'chunrock@artisan.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email1 = 'chunrock@artisan.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email1' in 'where clause'
+Wed Aug 21 02:40:50 2024 [17036][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Wed Aug 21 02:40:50 2024 [17036][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Wed Aug 21 02:42:22 2024 [18308][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Wed Aug 21 02:42:22 2024 [18308][1][FATAL] Exception in Controller: Unauthorized access to this area.
+Wed Aug 21 02:42:37 2024 [18308][1][FATAL] Batch: 0 - 3 email addresses
+Wed Aug 21 02:42:37 2024 [18308][1][FATAL] Mysqli_query failed.
+Wed Aug 21 02:42:37 2024 [18308][1][FATAL] Retrieving record WHERE email1 = 'chunrock@artisan.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email1 = 'chunrock@artisan.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email1' in 'where clause'
+Wed Aug 21 02:42:37 2024 [18308][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Wed Aug 21 02:42:37 2024 [18308][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Wed Aug 21 02:44:21 2024 [11088][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Wed Aug 21 02:44:21 2024 [11088][1][FATAL] Exception in Controller: Unauthorized access to this area.
+Wed Aug 21 02:44:32 2024 [17036][1][FATAL] Batch: 0 - 3 email addresses
+Wed Aug 21 02:44:32 2024 [17036][1][FATAL] Mysqli_query failed.
+Wed Aug 21 02:44:32 2024 [17036][1][FATAL] Retrieving record WHERE email_address = 'chunrock@artisan.com' AND deleted=0: Query Failed: SELECT contacts.*,contacts_cstm.* FROM contacts  LEFT JOIN contacts_cstm ON contacts.id = contacts_cstm.id_c  WHERE email_address = 'chunrock@artisan.com' AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email_address' in 'where clause'
+Wed Aug 21 02:44:32 2024 [17036][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Wed Aug 21 02:44:32 2024 [17036][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Wed Aug 21 02:46:59 2024 [17036][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Wed Aug 21 02:46:59 2024 [17036][1][FATAL] Exception in Controller: Unauthorized access to this area.
+Wed Aug 21 02:48:32 2024 [18308][1][FATAL] Mysqli_query failed.
+Wed Aug 21 02:48:32 2024 [18308][1][FATAL]  Query Failed: SELECT id, email_address FROM email_addresses WHERE id IN (''b2917bb9-e8f0-de83-0711-66c4706cf8c7'',''b2917bb9-e8f0-de83-0711-66c4706cf8c7'',''3120f3a6-c2a9-2938-ecd3-66c4726de5d8'',''3b6451ba-3cb0-6e3a-7ad0-66c4750f146e'',''3b6451ba-3cb0-6e3a-7ad0-66c4750f146e''): MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'b2917bb9-e8f0-de83-0711-66c4706cf8c7'',''b2917bb9-e8f0-de83-0711-66c4706cf8c7'',' at line 1
+Wed Aug 21 02:48:53 2024 [11088][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:48:53 2024 [11088][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:48:53 2024 [11088][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:48:53 2024 [11088][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:48:54 2024 [11088][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:48:54 2024 [11088][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:48:54 2024 [11088][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:48:54 2024 [11088][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:48:54 2024 [11088][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:48:54 2024 [11088][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:49:41 2024 [18308][1][FATAL] Mysqli_query failed.
+Wed Aug 21 02:49:41 2024 [18308][1][FATAL]  Query Failed: SELECT id, email_address FROM email_addresses WHERE id IN (''b2917bb9-e8f0-de83-0711-66c4706cf8c7'',''b2917bb9-e8f0-de83-0711-66c4706cf8c7'',''b2917bb9-e8f0-de83-0711-66c4706cf8c7'',''b2917bb9-e8f0-de83-0711-66c4706cf8c7'',''3120f3a6-c2a9-2938-ecd3-66c4726de5d8'',''3b6451ba-3cb0-6e3a-7ad0-66c4750f146e'',''b2917bb9-e8f0-de83-0711-66c4706cf8c7'',''3b6451ba-3cb0-6e3a-7ad0-66c4750f146e'',''b2917bb9-e8f0-de83-0711-66c4706cf8c7'',''b2917bb9-e8f0-de83-0711-66c4706cf8c7''): MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'b2917bb9-e8f0-de83-0711-66c4706cf8c7'',''b2917bb9-e8f0-de83-0711-66c4706cf8c7'',' at line 1
+Wed Aug 21 02:52:58 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:52:58 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:52:58 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:52:58 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:52:59 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:52:59 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:52:59 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:52:59 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:53:00 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:53:00 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:53:00 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:53:00 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:53:01 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:53:01 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:53:01 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:53:01 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:53:02 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:53:02 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:53:02 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:53:02 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 02:53:03 2024 [18308][1][FATAL] error loading relationship project_resource
+Wed Aug 21 02:53:03 2024 [18308][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 03:12:44 2024 [18308][1][FATAL] Mysqli_query failed.
+Wed Aug 21 03:12:44 2024 [18308][1][FATAL]  Query Failed: INSERT INTO leads_cstm (id_c ,additional_info_c ,company_name_c ,full_name_c ,jjwg_maps_lat_c ,jjwg_maps_lng_c ,phone_c ,phone_number_c ,utm_campaign_c ,utm_content_c ,utm_medium_c ,utm_score_c ,utm_term_c ,vat_number_c ) VALUES ('8a3f9790-461b-cfc5-0178-66c55bde6c34' ,'' ,'11111111' ,'I am new updated' ,0 ,0 ,'111111' ,'111111' ,'' ,'' ,'' ,'none' ,'' ,'' ): MySQL error 1062: Duplicate entry '8a3f9790-461b-cfc5-0178-66c55bde6c34' for key 'PRIMARY'
+Wed Aug 21 03:12:44 2024 [18308][1][FATAL] Mysqli_query failed.
+Wed Aug 21 03:12:44 2024 [18308][1][FATAL] Error inserting into table: leads: Query Failed: INSERT INTO leads (id,date_entered,date_modified,modified_user_id,created_by,deleted,last_name,do_not_call,converted,status)
+					VALUES ('8a3f9790-461b-cfc5-0178-66c55bde6c34','2024-08-21 03:12:44','2024-08-21 03:12:44','1','1',0,'',0,0,'New'): MySQL error 1062: Duplicate entry '8a3f9790-461b-cfc5-0178-66c55bde6c34' for key 'PRIMARY'
+Wed Aug 21 03:12:44 2024 [18308][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Wed Aug 21 03:12:44 2024 [18308][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Wed Aug 21 03:13:19 2024 [11088][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Wed Aug 21 03:13:19 2024 [11088][1][FATAL] Exception in Controller: Unauthorized access to this area.
+Wed Aug 21 03:16:49 2024 [17036][1][FATAL] error loading relationship project_resource
+Wed Aug 21 03:16:49 2024 [17036][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 03:16:49 2024 [17036][1][FATAL] error loading relationship project_resource
+Wed Aug 21 03:16:49 2024 [17036][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 03:16:49 2024 [17036][1][FATAL] error loading relationship project_resource
+Wed Aug 21 03:16:49 2024 [17036][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 03:43:57 2024 [11088][1][FATAL] error loading relationship project_resource
+Wed Aug 21 03:43:57 2024 [11088][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 03:43:57 2024 [11088][1][FATAL] error loading relationship project_resource
+Wed Aug 21 03:43:57 2024 [11088][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 03:43:57 2024 [11088][1][FATAL] error loading relationship project_resource
+Wed Aug 21 03:43:57 2024 [11088][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 03:45:04 2024 [11088][1][FATAL] error loading relationship project_resource
+Wed Aug 21 03:45:04 2024 [11088][1][FATAL] error loading relationship am_projecttemplates_resources
+Wed Aug 21 04:02:06 2024 [17036][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Wed Aug 21 04:02:06 2024 [17036][1][FATAL] Exception in Controller: Error retrieving record. This record may be deleted or you may not be authorized to view it.
+Thu Aug 22 05:52:58 2024 [1236][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Thu Aug 22 05:52:58 2024 [1236][1][FATAL] Exception in Controller: Error retrieving record. This record may be deleted or you may not be authorized to view it.
+Thu Aug 22 06:03:04 2024 [7984][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Thu Aug 22 06:03:04 2024 [7984][1][FATAL] Exception in Controller: Error retrieving record. This record may be deleted or you may not be authorized to view it.
+Thu Aug 22 06:03:09 2024 [12732][1][FATAL] Exception handling in C:\laragon\www\SuiteCRM-7.14.5\include\MVC\Controller\SugarController.php:397
+Thu Aug 22 06:03:09 2024 [12732][1][FATAL] Exception in Controller: Error retrieving record. This record may be deleted or you may not be authorized to view it.
+Thu Aug 22 08:14:39 2024 [9136][1][FATAL] Entered createAccountOnAssignedTeamMemberChange method.
+Thu Aug 22 08:19:22 2024 [11368][1][FATAL] Entered createAccountOnAssignedTeamMemberChange method.
+Thu Aug 22 08:24:48 2024 [11368][1][FATAL] Entered createAccountOnAssignedTeamMemberChange method.
+Thu Aug 22 08:27:22 2024 [11368][1][FATAL] Entered createAccountOnAssignedTeamMemberChange method.
+Thu Aug 22 08:31:07 2024 [11368][1][FATAL] Entered createAccountOnAssignedTeamMemberChange method.
+Thu Aug 22 08:31:30 2024 [12200][1][FATAL] Entered createAccountOnAssignedTeamMemberChange method.
+Thu Aug 22 08:32:49 2024 [11368][1][FATAL] Entered createAccountOnAssignedTeamMemberChange method.
+Thu Aug 22 08:36:21 2024 [12200][1][FATAL] Entered createAccountOnAssignedTeamMemberChange method.
+Thu Aug 22 08:37:02 2024 [11368][1][FATAL] Entered createAccountOnAssignedTeamMemberChange method.
+Thu Aug 22 08:37:02 2024 [11368][1][FATAL] assigned_to_team_member_c field has been modified.

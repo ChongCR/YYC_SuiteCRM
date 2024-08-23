@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-08-20 09:38:43
+/* Smarty version 4.3.1, created on 2024-08-22 08:59:59
   from 'C:\laragon\www\SuiteCRM-7.14.5\modules\ModuleBuilder\tpls\wizard.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_66c464231d8205_75742588',
+  'unifunc' => 'content_66c6fe0fdec812_65492223',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:modules/ModuleBuilder/tpls/assistantJavascript.tpl' => 1,
   ),
 ),false)) {
-function content_66c464231d8205_75742588 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66c6fe0fdec812_65492223 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\laragon\\www\\SuiteCRM-7.14.5\\include\\Smarty\\plugins\\function.counter.php','function'=>'smarty_function_counter',),));
 ?>
 <div class='wizard' width='100%' >

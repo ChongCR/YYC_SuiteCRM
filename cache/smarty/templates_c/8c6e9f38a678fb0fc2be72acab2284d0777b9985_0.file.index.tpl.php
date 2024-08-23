@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-08-20 09:29:09
+/* Smarty version 4.3.1, created on 2024-08-22 08:59:52
   from 'C:\laragon\www\SuiteCRM-7.14.5\modules\Administration\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_66c461e5aedf70_37294896',
+  'unifunc' => 'content_66c6fe08554695_03448405',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8c6e9f38a678fb0fc2be72acab2284d0777b9985' => 
     array (
       0 => 'C:\\laragon\\www\\SuiteCRM-7.14.5\\modules\\Administration\\index.tpl',
-      1 => 1724055220,
+      1 => 1723532450,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66c461e5aedf70_37294896 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66c6fe08554695_03448405 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <div class="dashletPanelMenu wizard">

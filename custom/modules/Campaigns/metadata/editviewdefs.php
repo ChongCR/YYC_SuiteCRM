@@ -83,8 +83,7 @@ function ConvertItems(id)  {ldelim}
         array (
           0 => 
           array (
-            'name' => 'company_name_c',
-            'label' => 'LBL_COMPANY_NAME',
+            'name' => 'name',
           ),
         ),
         1 => 

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-08-20 09:38:04
+/* Smarty version 4.3.1, created on 2024-08-23 02:13:27
   from 'C:\laragon\www\SuiteCRM-7.14.5\include\Dashlets\DashletFooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_66c463fc3be641_11202365',
+  'unifunc' => 'content_66c7f047713041_23821186',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,6 +20,6 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66c463fc3be641_11202365 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66c7f047713041_23821186 (Smarty_Internal_Template $_smarty_tpl) {
 ?></div><div class="mr"></div></div><div class="ft"><div class="bl"></div><div class="ft-center"></div><div class="br"></div></div><?php }
 }

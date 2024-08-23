@@ -1,5 +1,5 @@
 <?php
-// created: 2024-08-20 09:38:01
+// created: 2024-08-23 02:13:27
 $dashletsFiles = array (
   'MyAccountsDashlet' => 
   array (
@@ -338,6 +338,13 @@ $dashletsFiles = array (
     'file' => 'modules/Spots/Dashlets/SpotsDashlet/SpotsDashlet.php',
     'class' => 'SpotsDashlet',
     'meta' => 'modules/Spots/Dashlets/SpotsDashlet/SpotsDashlet.meta.php',
+  ),
+  'ST1_TeamDashlet' => 
+  array (
+    'file' => 'modules/ST1_Team/Dashlets/ST1_TeamDashlet/ST1_TeamDashlet.php',
+    'class' => 'ST1_TeamDashlet',
+    'meta' => 'modules/ST1_Team/Dashlets/ST1_TeamDashlet/ST1_TeamDashlet.meta.php',
+    'module' => 'ST1_Team',
   ),
   'SugarFeedDashlet' => 
   array (

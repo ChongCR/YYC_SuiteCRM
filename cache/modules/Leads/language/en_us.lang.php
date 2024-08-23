@@ -1,5 +1,5 @@
 <?php
-// created: 2024-08-20 09:44:17
+// created: 2024-08-23 02:13:33
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -206,6 +206,8 @@ $mod_strings = array (
   'LBL_LOADING' => 'Loading',
   'LBL_EDIT_INLINE' => 'Edit',
   'LBL_FP_EVENTS_LEADS_1_FROM_FP_EVENTS_TITLE' => 'Events',
+  'LBL_LEADS_ST1_TEAM_1_FROM_ST1_TEAM_TITLE' => 'Assigned to team member:',
+  'LBL_ST1_TEAM_LEADS_1_FROM_ST1_TEAM_TITLE' => 'Assigned to team member:',
   'LBL_FULL_NAME' => 'Full Name',
   'LBL_PHONE_NUMBER' => 'Phone Number',
   'LBL_COMPANY_NAME' => 'Company Name',
@@ -219,4 +221,7 @@ $mod_strings = array (
   'LBL_ADDITIONAL_INFO' => 'Additional Info',
   'LBL_EDITVIEW_PANEL2' => 'Overview',
   'LBL_EDITVIEW_PANEL1' => 'New Panel 1',
+  'LBL_DETAILVIEW_PANEL1' => 'ACTION',
+  'LBL_ASSIGNED_TO_TEAM_MEMBER_ST1_TEAM_ID' => 'Assigned to team member: (related  ID)',
+  'LBL_ASSIGNED_TO_TEAM_MEMBER' => 'Assigned to team member:',
 );

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-08-20 09:29:07
+/* Smarty version 4.3.1, created on 2024-08-22 08:58:26
   from 'C:\laragon\www\SuiteCRM-7.14.5\themes\SuiteP\tpls\_headerModuleList.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_66c461e3b01aa7_66673409',
+  'unifunc' => 'content_66c6fdb24e2935_94072057',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5c1c432db83181abf1f412f6ace37f8ca3f63d65' => 
     array (
       0 => 'C:\\laragon\\www\\SuiteCRM-7.14.5\\themes\\SuiteP\\tpls\\_headerModuleList.tpl',
-      1 => 1724055381,
+      1 => 1723532450,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66c461e3b01aa7_66673409 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66c6fdb24e2935_94072057 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\laragon\\www\\SuiteCRM-7.14.5\\include\\Smarty\\plugins\\function.sugar_link.php','function'=>'smarty_function_sugar_link',),1=>array('file'=>'C:\\laragon\\www\\SuiteCRM-7.14.5\\include\\Smarty\\plugins\\function.sugar_translate.php','function'=>'smarty_function_sugar_translate',),2=>array('file'=>'C:\\laragon\\www\\SuiteCRM-7.14.5\\include\\Smarty\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),3=>array('file'=>'C:\\laragon\\www\\SuiteCRM-7.14.5\\include\\Smarty\\plugins\\function.suite_check_access.php','function'=>'smarty_function_suite_check_access',),4=>array('file'=>'C:\\laragon\\www\\SuiteCRM-7.14.5\\include\\Smarty\\plugins\\function.counter.php','function'=>'smarty_function_counter',),5=>array('file'=>'C:\\laragon\\www\\SuiteCRM-7.14.5\\include\\Smarty\\plugins\\function.search_controller.php','function'=>'smarty_function_search_controller',),));
 ?>
 <!--Start Responsive Top Navigation Menu -->

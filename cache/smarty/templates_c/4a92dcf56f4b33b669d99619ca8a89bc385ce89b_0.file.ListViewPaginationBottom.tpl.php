@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-08-20 10:13:54
+/* Smarty version 4.3.1, created on 2024-08-22 08:59:16
   from 'C:\laragon\www\SuiteCRM-7.14.5\themes\SuiteP\include\ListView\ListViewPaginationBottom.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_66c46c62960858_66931343',
+  'unifunc' => 'content_66c6fde4974176_76228920',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:include/ListView/ListViewColumnsFilterLink.tpl' => 1,
   ),
 ),false)) {
-function content_66c46c62960858_66931343 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66c6fde4974176_76228920 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\laragon\\www\\SuiteCRM-7.14.5\\include\\Smarty\\plugins\\function.sugar_action_menu.php','function'=>'smarty_function_sugar_action_menu',),));
 ?>
 

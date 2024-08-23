@@ -1,5 +1,5 @@
 <?php
-// created: 2024-08-19 08:18:49
+// created: 2024-08-22 02:49:33
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -177,7 +177,7 @@ $sugar_config = array (
   'default_user_is_admin' => false,
   'default_user_name' => '',
   'demoData' => 'no',
-  'developerMode' => false,
+  'developerMode' => true,
   'disable_convert_lead' => false,
   'disable_export' => false,
   'disable_persistent_connections' => false,
@@ -250,8 +250,8 @@ $sugar_config = array (
     'max_retries' => 5,
     'timeout' => 86400,
   ),
-  'js_custom_version' => '',
-  'js_lang_version' => 1,
+  'js_custom_version' => 1,
+  'js_lang_version' => 5,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -260,10 +260,10 @@ $sugar_config = array (
   'lead_conv_activity_opt' => 'donothing',
   'legacy_email_behaviour' => false,
   'list_max_entries_per_page' => 20,
-  'list_max_entries_per_subpanel' => 10,
+  'list_max_entries_per_subpanel' => '1',
   'lock_default_user_name' => false,
-  'lock_homepage' => false,
-  'lock_subpanels' => false,
+  'lock_homepage' => true,
+  'lock_subpanels' => true,
   'log_dir' => '.',
   'log_file' => 'suitecrm.log',
   'log_memory_usage' => false,

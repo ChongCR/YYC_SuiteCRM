@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-08-20 09:52:15
+/* Smarty version 4.3.1, created on 2024-08-22 08:58:26
   from 'C:\laragon\www\SuiteCRM-7.14.5\themes\SuiteP\include\DetailView\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_66c4674fbf89a0_06252606',
+  'unifunc' => 'content_66c6fdb2697c92_70585166',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:themes/SuiteP/include/DetailView/actions_buttons.tpl' => 1,
   ),
 ),false)) {
-function content_66c4674fbf89a0_06252606 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66c6fdb2697c92_70585166 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\laragon\\www\\SuiteCRM-7.14.5\\include\\Smarty\\plugins\\function.counter.php','function'=>'smarty_function_counter',),));
 ?>
 {*

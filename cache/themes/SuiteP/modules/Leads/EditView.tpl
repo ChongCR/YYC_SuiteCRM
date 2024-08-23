@@ -135,6 +135,7 @@ maxlength='255'        value='{$value}' title=''      >
 {capture name="label" assign="label"}{sugar_translate label='LBL_UTM_SCORE' module='Leads'}{/capture}
 {$label|strip_semicolon}:
 
+<span class="required">*</span>
 {/minify}
 </div>
 
@@ -197,6 +198,7 @@ maxlength='255'        value='{$value}' title=''      >
 {capture name="label" assign="label"}{sugar_translate label='LBL_UTM_MEDIUM' module='Leads'}{/capture}
 {$label|strip_semicolon}:
 
+<span class="required">*</span>
 {/minify}
 </div>
 
@@ -259,6 +261,7 @@ maxlength='255'        value='{$value}' title=''      >
 {capture name="label" assign="label"}{sugar_translate label='LBL_UTM_CAMPAIGN' module='Leads'}{/capture}
 {$label|strip_semicolon}:
 
+<span class="required">*</span>
 {/minify}
 </div>
 
@@ -291,6 +294,7 @@ maxlength='255'        value='{$value}' title=''      >
 {capture name="label" assign="label"}{sugar_translate label='LBL_EMAIL_ADDRESS' module='Leads'}{/capture}
 {$label|strip_semicolon}:
 
+<span class="required">*</span>
 {/minify}
 </div>
 
@@ -314,6 +318,7 @@ maxlength='255'        value='{$value}' title=''      >
 {capture name="label" assign="label"}{sugar_translate label='LBL_UTM_TERM' module='Leads'}{/capture}
 {$label|strip_semicolon}:
 
+<span class="required">*</span>
 {/minify}
 </div>
 
@@ -376,6 +381,7 @@ maxlength='255'        value='{$value}' title=''      >
 {capture name="label" assign="label"}{sugar_translate label='LBL_UTM_CONTENT' module='Leads'}{/capture}
 {$label|strip_semicolon}:
 
+<span class="required">*</span>
 {/minify}
 </div>
 
@@ -408,6 +414,7 @@ maxlength='255'        value='{$value}' title=''      >
 {capture name="label" assign="label"}{sugar_translate label='LBL_VAT_NUMBER' module='Leads'}{/capture}
 {$label|strip_semicolon}:
 
+<span class="required">*</span>
 {/minify}
 </div>
 
@@ -428,34 +435,57 @@ maxlength='255'        value='{$value}' title=''      >
 </div>
 
 
-<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="additional_info_c">
+<div class="col-xs-12 col-sm-6 edit-view-row-item" data-field="">
+</div>
+<div class="clear"></div>
+<div class="clear"></div>
 
 
-<div class="col-xs-12 col-sm-4 label" data-label="LBL_ADDITIONAL_INFO">
+
+<div class="col-xs-12 col-sm-12 edit-view-row-item" data-field="st1_team_leads_1_name">
+
+
+<div class="col-xs-12 col-sm-2 label" data-label="LBL_ST1_TEAM_LEADS_1_FROM_ST1_TEAM_TITLE">
 
 {minify}
-{capture name="label" assign="label"}{sugar_translate label='LBL_ADDITIONAL_INFO' module='Leads'}{/capture}
+{capture name="label" assign="label"}{sugar_translate label='LBL_ST1_TEAM_LEADS_1_FROM_ST1_TEAM_TITLE' module='Leads'}{/capture}
 {$label|strip_semicolon}:
 
 {/minify}
 </div>
 
-<div class="col-xs-12 col-sm-8 edit-view-field " type="varchar" field="additional_info_c"  >
+<div class="col-xs-12 col-sm-8 edit-view-field " type="relate" field="st1_team_leads_1_name" colspan='3' >
 {counter name="panelFieldCount" print=false}
 
-{if strlen($fields.additional_info_c.value) <= 0}
-{assign var="value" value=$fields.additional_info_c.default_value }
-{else}
-{assign var="value" value=$fields.additional_info_c.value }
-{/if}
-<input type='text' name='{$fields.additional_info_c.name}'
-id='{$fields.additional_info_c.name}' size='30'
-maxlength='255'        value='{$value}' title=''      >
+<input type="text" name="{$fields.st1_team_leads_1_name.name}" class="sqsEnabled" tabindex="0" id="{$fields.st1_team_leads_1_name.name}" size="" value="{$fields.st1_team_leads_1_name.value}" title='' autocomplete="off"  	 >
+<input type="hidden" name="{$fields.st1_team_leads_1_name.id_name}" 
+id="{$fields.st1_team_leads_1_name.id_name}" 
+value="{$fields.st1_team_leads_1st1_team_ida.value}">
+<span class="id-ff multiple">
+<button type="button" name="btn_{$fields.st1_team_leads_1_name.name}" id="btn_{$fields.st1_team_leads_1_name.name}" tabindex="0" title="{sugar_translate label="LBL_SELECT_BUTTON_TITLE"}" class="button firstChild" value="{sugar_translate label="LBL_SELECT_BUTTON_LABEL"}"
+onclick='open_popup(
+"{$fields.st1_team_leads_1_name.module}", 
+600, 
+400, 
+"", 
+true, 
+false, 
+{literal}{"call_back_function":"set_return","form_name":"EditView","field_to_name_array":{"id":"st1_team_leads_1st1_team_ida","name":"st1_team_leads_1_name"}}{/literal}, 
+"single", 
+true
+);' ><span class="suitepicon suitepicon-action-select"></span></button><button type="button" name="btn_clr_{$fields.st1_team_leads_1_name.name}" id="btn_clr_{$fields.st1_team_leads_1_name.name}" tabindex="0" title="{sugar_translate label="LBL_ACCESSKEY_CLEAR_RELATE_TITLE"}"  class="button lastChild"
+onclick="SUGAR.clearRelateField(this.form, '{$fields.st1_team_leads_1_name.name}', '{$fields.st1_team_leads_1_name.id_name}');"  value="{sugar_translate label="LBL_ACCESSKEY_CLEAR_RELATE_LABEL"}" ><span class="suitepicon suitepicon-action-clear"></span></button>
+</span>
+<script type="text/javascript">
+SUGAR.util.doWhen(
+		"typeof(sqs_objects) != 'undefined' && typeof(sqs_objects['{$form_name}_{$fields.st1_team_leads_1_name.name}']) != 'undefined'",
+		enableQS
+);
+</script>
 </div>
 
 <!-- [/hide] -->
 </div>
-<div class="clear"></div>
 <div class="clear"></div>
 </div>
 </div>
@@ -583,7 +613,7 @@ addToValidate('EditView', 'phone_mobile', 'phone', false,'{/literal}{sugar_trans
 addToValidate('EditView', 'phone_work', 'phone', false,'{/literal}{sugar_translate label='LBL_OFFICE_PHONE' module='Leads' for_js=true}{literal}' );
 addToValidate('EditView', 'phone_other', 'phone', false,'{/literal}{sugar_translate label='LBL_OTHER_PHONE' module='Leads' for_js=true}{literal}' );
 addToValidate('EditView', 'phone_fax', 'phone', false,'{/literal}{sugar_translate label='LBL_FAX_PHONE' module='Leads' for_js=true}{literal}' );
-addToValidate('EditView', 'email1', 'varchar', false,'{/literal}{sugar_translate label='LBL_EMAIL_ADDRESS' module='Leads' for_js=true}{literal}' );
+addToValidate('EditView', 'email1', 'varchar', true,'{/literal}{sugar_translate label='LBL_EMAIL_ADDRESS' module='Leads' for_js=true}{literal}' );
 addToValidate('EditView', 'email2', 'varchar', false,'{/literal}{sugar_translate label='LBL_OTHER_EMAIL_ADDRESS' module='Leads' for_js=true}{literal}' );
 addToValidate('EditView', 'invalid_email', 'bool', false,'{/literal}{sugar_translate label='LBL_INVALID_EMAIL' module='Leads' for_js=true}{literal}' );
 addToValidate('EditView', 'email_opt_out', 'bool', false,'{/literal}{sugar_translate label='LBL_EMAIL_OPT_OUT' module='Leads' for_js=true}{literal}' );
@@ -642,7 +672,9 @@ addToValidate('EditView', 'event_invite_id', 'varchar', false,'{/literal}{sugar_
 addToValidate('EditView', 'e_accept_status_fields', 'relate', false,'{/literal}{sugar_translate label='LBL_CONT_ACCEPT_STATUS' module='Leads' for_js=true}{literal}' );
 addToValidate('EditView', 'event_accept_status', 'enum', false,'{/literal}{sugar_translate label='LBL_LIST_ACCEPT_STATUS_EVENT' module='Leads' for_js=true}{literal}' );
 addToValidate('EditView', 'event_status_id', 'varchar', false,'{/literal}{sugar_translate label='LBL_LIST_ACCEPT_STATUS' module='Leads' for_js=true}{literal}' );
+addToValidate('EditView', 'st1_team_leads_1_name', 'relate', false,'{/literal}{sugar_translate label='LBL_ST1_TEAM_LEADS_1_FROM_ST1_TEAM_TITLE' module='Leads' for_js=true}{literal}' );
 addToValidate('EditView', 'additional_info_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_ADDITIONAL_INFO' module='Leads' for_js=true}{literal}' );
+addToValidate('EditView', 'assigned_to_team_member_c', 'relate', false,'{/literal}{sugar_translate label='LBL_ASSIGNED_TO_TEAM_MEMBER' module='Leads' for_js=true}{literal}' );
 addToValidate('EditView', 'company_name_c', 'varchar', true,'{/literal}{sugar_translate label='LBL_COMPANY_NAME' module='Leads' for_js=true}{literal}' );
 addToValidate('EditView', 'full_name_c', 'varchar', true,'{/literal}{sugar_translate label='LBL_FULL_NAME' module='Leads' for_js=true}{literal}' );
 addToValidate('EditView', 'jjwg_maps_address_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_JJWG_MAPS_ADDRESS' module='Leads' for_js=true}{literal}' );
@@ -651,11 +683,13 @@ addToValidate('EditView', 'jjwg_maps_lat_c', 'float', false,'{/literal}{sugar_tr
 addToValidate('EditView', 'jjwg_maps_lng_c', 'float', false,'{/literal}{sugar_translate label='LBL_JJWG_MAPS_LNG' module='Leads' for_js=true}{literal}' );
 addToValidate('EditView', 'phone_c', 'varchar', true,'{/literal}{sugar_translate label='LBL_PHONE' module='Leads' for_js=true}{literal}' );
 addToValidate('EditView', 'phone_number_c', 'varchar', true,'{/literal}{sugar_translate label='LBL_PHONE_NUMBER' module='Leads' for_js=true}{literal}' );
-addToValidate('EditView', 'utm_campaign_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_UTM_CAMPAIGN' module='Leads' for_js=true}{literal}' );
-addToValidate('EditView', 'utm_content_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_UTM_CONTENT' module='Leads' for_js=true}{literal}' );
-addToValidate('EditView', 'utm_medium_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_UTM_MEDIUM' module='Leads' for_js=true}{literal}' );
-addToValidate('EditView', 'utm_score_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_UTM_SCORE' module='Leads' for_js=true}{literal}' );
-addToValidate('EditView', 'utm_term_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_UTM_TERM' module='Leads' for_js=true}{literal}' );
-addToValidate('EditView', 'vat_number_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_VAT_NUMBER' module='Leads' for_js=true}{literal}' );
+addToValidate('EditView', 'st1_team_id_c', 'id', false,'{/literal}{sugar_translate label='LBL_ASSIGNED_TO_TEAM_MEMBER_ST1_TEAM_ID' module='Leads' for_js=true}{literal}' );
+addToValidate('EditView', 'utm_campaign_c', 'varchar', true,'{/literal}{sugar_translate label='LBL_UTM_CAMPAIGN' module='Leads' for_js=true}{literal}' );
+addToValidate('EditView', 'utm_content_c', 'varchar', true,'{/literal}{sugar_translate label='LBL_UTM_CONTENT' module='Leads' for_js=true}{literal}' );
+addToValidate('EditView', 'utm_medium_c', 'varchar', true,'{/literal}{sugar_translate label='LBL_UTM_MEDIUM' module='Leads' for_js=true}{literal}' );
+addToValidate('EditView', 'utm_score_c', 'varchar', true,'{/literal}{sugar_translate label='LBL_UTM_SCORE' module='Leads' for_js=true}{literal}' );
+addToValidate('EditView', 'utm_term_c', 'varchar', true,'{/literal}{sugar_translate label='LBL_UTM_TERM' module='Leads' for_js=true}{literal}' );
+addToValidate('EditView', 'vat_number_c', 'varchar', true,'{/literal}{sugar_translate label='LBL_VAT_NUMBER' module='Leads' for_js=true}{literal}' );
 addToValidateBinaryDependency('EditView', 'assigned_user_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='Leads' for_js=true}{literal}: {/literal}{sugar_translate label='LBL_ASSIGNED_TO' module='Leads' for_js=true}{literal}', 'assigned_user_id' );
-</script>{/literal}
+addToValidateBinaryDependency('EditView', 'st1_team_leads_1_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='Leads' for_js=true}{literal}: {/literal}{sugar_translate label='LBL_ST1_TEAM_LEADS_1_FROM_ST1_TEAM_TITLE' module='Leads' for_js=true}{literal}', 'st1_team_leads_1st1_team_ida' );
+</script><script language="javascript">if(typeof sqs_objects == 'undefined'){var sqs_objects = new Array;}sqs_objects['EditView_st1_team_leads_1_name']={"form":"EditView","method":"query","modules":["ST1_Team"],"group":"or","field_list":["name","id"],"populate_list":["st1_team_leads_1_name","st1_team_leads_1st1_team_ida"],"required_list":["parent_id"],"conditions":[{"name":"name","op":"like_custom","end":"%","value":""}],"order":"name","limit":"30","no_match_text":"No Match"};</script>{/literal}

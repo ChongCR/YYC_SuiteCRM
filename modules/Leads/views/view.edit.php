@@ -52,4 +52,22 @@ class LeadsViewEdit extends ViewEdit
         $this->useForSubpanel = true;
         $this->useModuleQuickCreateTemplate = true;
     }
+
+    public function display()
+    {
+        echo "<script>
+            $(document).ready(function() {
+                // Hide the 'Add Email' button
+                $('#Leads4_email_widget_add').hide();
+
+                // Hide the 'Remove Email Address' button
+                $('#Leads0removeButton0').hide();
+
+                // Hide the email address options container
+                $('.email-address-options-container').hide();
+            });
+        </script>";
+
+        parent::display();
+    }
 }

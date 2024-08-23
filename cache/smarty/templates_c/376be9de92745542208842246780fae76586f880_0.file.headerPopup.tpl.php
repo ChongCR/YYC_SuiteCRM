@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-08-20 09:46:46
+/* Smarty version 4.3.1, created on 2024-08-22 08:59:16
   from 'C:\laragon\www\SuiteCRM-7.14.5\include\SearchForm\tpls\headerPopup.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_66c46606682fb4_17803193',
+  'unifunc' => 'content_66c6fde47a1109_32883217',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66c46606682fb4_17803193 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66c6fde47a1109_32883217 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="searchDialog" class="modal fade modal-search" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">

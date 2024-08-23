@@ -121,11 +121,7 @@ array (
       array (
         0 => 
         array (
-          0 => 
-          array (
-            'name' => 'company_name_c',
-            'label' => 'LBL_COMPANY_NAME',
-          ),
+          0 => 'name',
         ),
         1 => 
         array (

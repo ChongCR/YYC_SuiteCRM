@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-08-20 09:38:42
+/* Smarty version 4.3.1, created on 2024-08-22 08:59:58
   from 'C:\laragon\www\SuiteCRM-7.14.5\modules\ModuleBuilder\tpls\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_66c464221cfac5_48169351',
+  'unifunc' => 'content_66c6fe0e14fd79_10534596',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:modules/ModuleBuilder/tpls/assistantJavascript.tpl' => 1,
   ),
 ),false)) {
-function content_66c464221cfac5_48169351 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66c6fe0e14fd79_10534596 (Smarty_Internal_Template $_smarty_tpl) {
 ?><iframe id="yui-history-iframe" src="index.php?entryPoint=getImage&imageName=sugar-yui-sprites-grey.png" title="index.php?entryPoint=getImage&imageName=sugar-yui-sprites-grey.png"></iframe>
 <input id="yui-history-field" type="hidden"> 
 <div class='ytheme-gray' id='mblayout' style="position:relative; height:0px; overflow:visible;">

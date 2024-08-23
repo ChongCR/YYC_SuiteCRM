@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2024-08-20 09:52:15
+/* Smarty version 4.3.1, created on 2024-08-22 08:58:26
   from 'C:\laragon\www\SuiteCRM-7.14.5\include\SugarEmailAddress\templates\forDetailView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_66c4674f0cb813_54610790',
+  'unifunc' => 'content_66c6fdb2605ae9_43497742',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66c4674f0cb813_54610790 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66c6fdb2605ae9_43497742 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 			<table cellpadding="0" cellspacing="0" border="0" width="100%">
 				<?php
